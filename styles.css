@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-screen {
+    background-image: url('imgs/merkaz.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+}
+
+.projects-section {
+    height: 100vh;
+    
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+
+
+    
+
+
+.merkaz1Parent{
+    display: flex;
+    height: 40vh;
+    /* background-image: url("imgs/layered-waves.svg");
+    background-size: cover; */
+}
+.div1{
+    width: 60%;
+    padding-right: 20px;
+}
+.div3{
+    width: 40%;
+}
+
+.sadna1Parent{
+    display: flex;
+    height: 40vh;
+}
+
+.div2{
+    width: 60%;
+    padding-right: 20px;
+}
+.div4{
+    width: 40%;
+}
