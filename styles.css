@@ -1,3 +1,8 @@
+:root {
+    --themeYellow: #FFD83C;
+    --themeGray: #2d2d2d;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -43,24 +48,63 @@ h2 {
     height: 40vh;
     /* background-image: url("imgs/layered-waves.svg");
     background-size: cover; */
+    /* outline: 5px solid black; */
+    width: 90%;
+    margin:0 auto;
+    /* background-color: var(--themeYellow); */
+    background-image: url("imgs/blob-scene.svg");
+    background-size: cover;
+    border-radius: 11px;
+
+    color:white;
 }
 .div1{
     width: 60%;
     padding-right: 20px;
+    /* margin-right: 5%; */
 }
 .div3{
     width: 40%;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+    border: 7px solid var(--themeYellow);
+    border-radius: 11px;
+    background-image: url("imgs/merkaz1.jpg");
+    background-size: cover;
 }
 
 .sadna1Parent{
     display: flex;
     height: 40vh;
+    width: 90%;
+    margin:0 auto;
+    margin-top: 1%;
+    background-image: url("imgs/blob-scene.svg");
+    background-size: cover;
+    border-radius: 11px;
+    color:white;
+
+}
+
+.projects-section h3{
+    font-size: 3em;
+}
+.projects-section p{
+    font-size: 1.5em;
+    text-align: right;
 }
 
 .div2{
     width: 60%;
     padding-right: 20px;
+    margin-left:2%;
+
 }
 .div4{
     width: 40%;
+    margin-left: 5%;
+    border: 7px solid var(--themeYellow);
+    border-radius: 11px;
+    background-image: url("imgs/merkaz1.jpg");
+    background-size: cover;
 }
