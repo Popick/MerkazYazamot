@@ -1,0 +1,88 @@
+body {
+  background-color: #FFD83C;
+  background-image: url("imgs/floating-cogs.svg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-signup, .container-signin {
+  width: 500px;
+  max-width: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-signup{
+  display: none;
+}
+
+h2 {
+  color: #000;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  direction: rtl;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+a {
+  color: mediumblue;
+  text-decoration: none;
+  cursor:pointer;
+  font-size: 16px;
+}
+
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.back-button:after {
+  content: '\2192';
+  margin-right: 5px;
+}
+
+
+
+@media (max-width: 600px) {
+  .container-signup, .container-signin {
+    
+    width: 85%;
+    padding: 20px;
+    margin: 50px auto;
+
+    
+  }
+}
