@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <script src="assets/login.js"></script>
+    <div class="container-signin">
+    <a href="index.html" class="back-button">חזור </a>
+    <br>
+    <h2>התחברות</h2>
+    <form id="signin-form">
+      <input type="email" placeholder="אימייל" required>
+      <input type="password" placeholder="סיסמה" required>
+      <button type="submit">התחברות</button>
+    </form>
+    <p>אין לך חשבון? <a id="signupbutton">יצירת חשבון</a></p>
+  </div>
+
+  <div class="container-signup">
+    <a href="index.html" class="back-button">חזור </a>
+    <br>
+    <h2>הרשמה</h2>
+    <form id="signup-form">
+      <input type="name" placeholder="שם מלא" required>
+      <input type="email" placeholder="אימייל" required>
+      <input type="password" placeholder="סיסמה" required>
+      <input type="tel" placeholder="מספר טלפון" required>
+      <select>
+        <option value="empty">בחר תפקיד:</option>
+        <option value="teacher">מורה/חבר מנהלה</option>
+        <option value="student">תלמיד</option>
+        <option value="mentor">מנטור</option>
+      </select>
+      <button type="submit">הרשמה</button>
+    </form>
+    <p>כבר יש לך חשבון? <a id="signinbutton" >התחברות</a></p>
+  </div>
+</body>
+</html>
